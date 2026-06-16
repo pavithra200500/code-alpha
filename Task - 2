@@ -1,0 +1,12 @@
+import matplotlib.pyplot as plt
+
+subjects = ["Maths", "Science", "English", "Computer"]
+marks = [85, 78, 90, 95]
+
+plt.bar(subjects, marks)
+
+plt.title("Subject-wise Marks")
+plt.xlabel("Subjects")
+plt.ylabel("Marks")
+
+plt.show()
